@@ -1,11 +1,11 @@
 ﻿namespace api_mini_atendimento.Models;
 
-public class Atendimento
+ public class Atendimento
 {
-    public int Id { get; set; }
-    public string Canal { get; set; } = string.Empty;
-    public string Mensagem { get; set; } = string.Empty;
-    public DateTime Data { get; set; }
-    public required Cliente ClienteId { get; set; }
-    public required Cliente Cliente { get; set; }
+        public int Id { get; set; }
+        public string Descricao { get; set; } = string.Empty;
+        public DateTime DataCriacao { get; set; } = DateTime.Now;
+        public bool Finalizado { get; set; } = false;
+        public int ClienteId { get; set; }
+        public Cliente? Cliente { get; set; }
 }
