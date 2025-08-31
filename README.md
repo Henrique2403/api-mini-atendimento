@@ -1,8 +1,8 @@
-API em .NET 8 que simula um sistema simples de atendimento ao cliente. Inclui CRUD de clientes e atendimentos, autenticação JWT, integração com ViaCEP e logs com Serilog. Projeto criado para estudo prático de backend com ASP.NET Core.
+API em .NET que simula um sistema simples de atendimento ao cliente. Inclui CRUD de clientes e atendimentos, autenticação JWT, integração com ViaCEP e logs com Serilog. Projeto criado para estudo prático de backend com ASP.NET Core.
 
 # 📞 Atendimento API  
 
-**Atendimento API** é uma Web API desenvolvida em **.NET 8** que simula um sistema simples de canais de atendimento ao cliente.  
+**Atendimento API** é uma Web API desenvolvida em **.NET** que simula um sistema simples de canais de atendimento ao cliente.  
 O projeto tem como objetivo praticar conceitos fundamentais de desenvolvimento backend com **ASP.NET Core**, incluindo:  
 
 - ✅ Criação de **APIs RESTful**  
